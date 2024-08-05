@@ -1,4 +1,4 @@
-# Actions-X-WRT / [x-openwrt-actions](https://github.com/QC3284/x-openwrt-actions)
+# Actions-X-WRT / [x-wrt-mt7621-all-actions](https://github.com/QC3284/x-wrt-mt7621-all-actions)
 
 Build X-wrt using GitHub Actions
 ![OpenWrt logo](https://raw.githubusercontent.com/x-wrt/com.x-wrt/master/x-wrt-logo/x-wrt-logo-Aldrich-raw.svg)

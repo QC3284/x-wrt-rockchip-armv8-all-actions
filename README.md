@@ -2,12 +2,12 @@
 
 Build X-wrt using GitHub Actions
 ![OpenWrt logo](https://raw.githubusercontent.com/x-wrt/com.x-wrt/master/x-wrt-logo/x-wrt-logo-Aldrich-raw.svg)
-![github logo](https://raw.githubusercontent.com/QC3284/x-wrt-actions/main/oip-c.png)
+![github logo](https://raw.githubusercontent.com/QC3284/x-wrt-mt7621-all-actions/main/oip-c.png)
 
 
 ## 说明 ##
 - 采用[PTPT52's X-wrt](https://github.com/x-wrt/x-wrt)源码编译
-- 路由器型号：Xiaomi cr6606/6608/6609
+- 路由器（架构/处理器）型号：ramips/mt7621
 - 固件管理界面：http://192.168.5.1/
 - 管理界面账户/密码：admin/admin
 - SSH登录账户/密码：root/admin
@@ -19,10 +19,7 @@ Build X-wrt using GitHub Actions
 - 原版下载地址：
   https://downloads.x-wrt.com/rom/
 - 注:
-- 1.没有修改opkg软件源，需自己解决
-- 2.本固件仍在测试中，稳定性较差
-- 3.可能会出现各种奇奇怪怪的Bug
-- 4.fork后，可自定义固件（没有说明，自行摸索）
+- 没有修改opkg软件源，需自己解决
 
 ## 感谢 ##
 
@@ -36,5 +33,3 @@ Build X-wrt using GitHub Actions
 - [Cowtransfer](https://cowtransfer.com)
 - [WeTransfer](https://wetransfer.com/)
 - [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
-- [kenzok8 openwrt-packages](https://github.com/kenzok8/openwrt-packages)
-- [kenzol8 small](https://github.com/kenzok8/small)

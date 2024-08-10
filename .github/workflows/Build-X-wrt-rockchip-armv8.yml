@@ -91,7 +91,7 @@ jobs:
         cd openwrt/package/base-files/files/etc/
         sudo rm -rf banner
         ls
-        wget https://raw.githubusercontent.com/QC3284/openwrt-actions-config/main/x-wrt-banner.txt -O banner
+        wget https://raw.githubusercontent.com/QC3284/openwrt-actions-config/main/x-wrt-rockchip-armv8-all-banner.txt -O banner
 
 #    - name: 加载自定义 Feed源和更新Feed-01
 #      run: |
@@ -126,7 +126,7 @@ jobs:
     - name: 下载配置 (Download Config (.config))
       run: |
          cd openwrt
-         cp feeds/x/rom/lede/config.ramips-mt7621 .config
+         cp feeds/x/rom/lede/config.rockchip-armv8 .config
          echo " 下载完成 (Download complete)"
 
     - name: 下载包 (Download package (dl library))

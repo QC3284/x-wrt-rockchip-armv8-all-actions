@@ -1,13 +1,13 @@
-# Actions-X-WRT / [x-wrt-mt7621-all-actions](https://github.com/QC3284/x-wrt-mt7621-all-actions)
+# Actions-X-WRT / [x-wrt-rockchip-armv8-all-actions](https://github.com/QC3284/x-wrt-rockchip-armv8-all-actions)
 
 Build X-wrt using GitHub Actions
 ![OpenWrt logo](https://raw.githubusercontent.com/x-wrt/com.x-wrt/master/x-wrt-logo/x-wrt-logo-Aldrich-raw.svg)
-![github logo](https://raw.githubusercontent.com/QC3284/x-wrt-mt7621-all-actions/main/oip-c.png)
+![github logo](https://raw.githubusercontent.com/QC3284/x-wrt-rockchip-armv8-all-actions/main/oip-c.png)
 
 
 ## 说明 ##
 - 采用[PTPT52's X-wrt](https://github.com/x-wrt/x-wrt)源码编译
-- 路由器（架构/处理器）型号：ramips/mt7621
+- 路由器（架构/处理器）型号：rockchip-armv8
 - 固件管理界面：http://192.168.5.1/
 - 管理界面账户/密码：admin/admin
 - SSH登录账户/密码：root/admin
